@@ -14,6 +14,6 @@ public class StudentResources {
 	@RequestMapping(value="/health", method = RequestMethod.GET)
 	public String test() {
 					 
-			return "Sistema Drummond API ativo - " + new SimpleDateFormat("yyyyMM-dd HH:mm:ss").format(new Date());
+			return "Sistema API Drummond ativo - " + new SimpleDateFormat("yyyyMM-dd HH:mm:ss").format(new Date());
 	}	
 }
